@@ -3,7 +3,7 @@ $vmUser = "infini-ops"
 $vmIp = "127.0.0.1"
 $sshPort = 2222
 $sshKeyPath = "your\path\.ssh\id_rsa"
-$remotePath = "/home/infini-ops/infinidant"
+$remotePath = "/home/infini-ops/infinidat"
 $healthCheckUrl = "http://127.0.0.1:5000/health"
 
 # Check if user is in docker group
