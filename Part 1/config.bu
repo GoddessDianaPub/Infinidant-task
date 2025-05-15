@@ -1,0 +1,30 @@
+variant: fcos
+version: 1.5.0
+
+passwd:
+  users:
+    - name: infini-ops
+      groups: [sudo]
+      ssh_authorized_keys:
+        - ssh-rsa AAAAB3Ny0M1Uwqtk6XiCdF3isy8f9B02khI9nAEjsU1NHNEqSenzdplm0LhxG6/+== #Save you publich ssh key
+
+systemd:
+  units:
+    - name: sshd.service
+      enabled: true
+    - name: systemd-networkd.service
+      enabled: true
+
+storage:
+  files:
+    - path: /etc/systemd/network/10-static.network
+      mode: 0644
+      contents:
+        inline: |
+          [Match]
+          Name=en*
+
+          [Network]
+          Address=192.168.50.42/16
+          Gateway=192.168.50.1
+          DNS=1.1.1.1
