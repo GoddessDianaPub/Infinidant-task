@@ -1,4 +1,4 @@
-# Infinidant-task
+# Infinidat-task
 
 This repo contains files and commands to use in order to complete Infini-Quest task.
 There are 3 folders for each part of the task.
@@ -16,7 +16,7 @@ ssh-keygen -t rsa -b 4096 -f "your\path\.ssh\id_rsa"
 https://builds.coreos.fedoraproject.org/browser?stream=stable&arch=aarch64
 
 # Generate config.ign file based on the butane file with powershell
-cd "your\path\Infinidant-task\Part 1"
+cd "your\path\Infinidat-task\Part 1"
 butane.exe config.bu -o config.ign
 
 # Run this file to create a VM
@@ -28,7 +28,7 @@ ssh -i "your\path\.ssh\id_rsa" -p 2222 infini-ops@127.0.0.1
 
 ## Part 2:
 # Create these files: Dockerfile, requirements.txt, prometheus.yml, docker-compose.yml based on the app.py file provided.
-cd "your\path\Infinidant-task\Part 2 + 3\"
+cd "your\path\Infinidat-task\Part 2 + 3\"
 
 # Build the containers:
 docker-compose up --build
@@ -43,5 +43,5 @@ http://localhost:5000/metrics
 
 ## Part 3:
 # Prepaer a powershell file with all the instructions and run it
-cd "your\path\Infinidant-task\Part 2 + 3\"
+cd "your\path\Infinidat-task\Part 2 + 3\"
 Part_3_deploy.ps1
