@@ -23,7 +23,7 @@ Please clone the repo and follow the instructions bellow:
 ## Generate ssh key
 ssh-keygen -t rsa -b 4096 -f "your\path\.ssh\id_rsa"
 
-## Prepare a butane file with all the requirements to create a VM
+### Prepare a butane file with all the requirements to create a VM
 
 ## Download and exctract this file: fedora-coreos-41.20250315.3.0-qemu.x86_64.qcow2.xz
 https://builds.coreos.fedoraproject.org/browser?stream=stable&arch=aarch64
