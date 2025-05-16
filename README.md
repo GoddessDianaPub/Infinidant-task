@@ -15,7 +15,7 @@ I have created a butane file which more readable for human, and than converted i
 
 in order to create a VM with all the configurations.
 
-I would improve the code not to have the public key within the config file, i would pass the key in a safer way.
+I would improve the code by not to save the public key within the config file, i would pass the key in a safer way.
 
 Please clone the repo and follow the instructions bellow:
 
