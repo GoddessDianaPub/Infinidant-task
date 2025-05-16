@@ -6,8 +6,8 @@ It has been created on windows 11 operating system.
 Clone the repo and follow the instructions bellow:
 
 
-##Part 1:
-# Generate ssh key
+# Part 1:
+## Generate ssh key
 ssh-keygen -t rsa -b 4096 -f "your\path\.ssh\id_rsa"
 
 # Prepare a butane file with all the requirements to create a VM
