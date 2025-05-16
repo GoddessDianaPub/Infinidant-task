@@ -32,6 +32,7 @@ https://drive.google.com/file/d/1nwAek-tuy_cXpFMnxMt4vxeEaJl_nHHW/view?usp=drive
 
 ## Generate config.ign file based on the butane file with powershell
 cd "your\path\Infinidat-task\Part 1"
+
 butane.exe config.bu -o config.ign
 
 ## Run this file to create a VM
@@ -50,9 +51,11 @@ docker-compose up --build
 
 ## Check that it works
 http://localhost:9090/
+
 http://localhost:9090/targets
 
 http://localhost:5000/health
+
 http://localhost:5000/metrics
 
 
