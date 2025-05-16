@@ -4,8 +4,18 @@ This repo contains files and commands to use in order to complete Infini-Quest t
 
 There are 3 folders for each part of the task.
 It has been created on windows 11 operating system.
-Clone the repo and follow the instructions bellow:
 
+During the task i have used these resources: github, fedoraproject.org, google, chatgpt.
+
+My challenges was to create a VM with a static IP.
+
+I started with WSL which had some limitations and than i moved to windows.
+
+I have created a butane file which more readable for human, and than converted it to ignition file in order to create a VM with all the configurations.
+
+I would improve the code not to have the public key within the config file, i would pass the key in a safer way.
+
+Clone the repo and follow the instructions bellow:
 
 # Part 1:
 ## Generate ssh key
