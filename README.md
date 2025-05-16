@@ -28,6 +28,8 @@ ssh-keygen -t rsa -b 4096 -f "your\path\.ssh\id_rsa"
 ## Download and exctract this file: fedora-coreos-41.20250315.3.0-qemu.x86_64.qcow2.xz
 https://builds.coreos.fedoraproject.org/browser?stream=stable&arch=aarch64
 
+https://drive.google.com/file/d/1nwAek-tuy_cXpFMnxMt4vxeEaJl_nHHW/view?usp=drive_link
+
 ## Generate config.ign file based on the butane file with powershell
 cd "your\path\Infinidat-task\Part 1"
 butane.exe config.bu -o config.ign
