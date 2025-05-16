@@ -11,7 +11,9 @@ My challenges were to create a VM with a static IP, and the networking part.
 
 I started with WSL which had some limitations and than i moved to windows.
 
-I have created a butane file which more readable for human, and than converted it to ignition file in order to create a VM with all the configurations.
+I have created a butane file which more readable for human, and than converted it to ignition file 
+
+in order to create a VM with all the configurations.
 
 I would improve the code not to have the public key within the config file, i would pass the key in a safer way.
 
