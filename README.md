@@ -1,6 +1,7 @@
 # Infinidat-task
 
 This repo contains files and commands to use in order to complete Infini-Quest task.
+
 There are 3 folders for each part of the task.
 It has been created on windows 11 operating system.
 Clone the repo and follow the instructions bellow:
